@@ -2449,8 +2449,12 @@ section.bg-dark .fa, section.bg-dark2 .fa {
   color: #fff;
 }
 
+.text-shadow {
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
 .big {
-  font-size: 120px !important;
+  font-size: 80px !important;
   line-height: 100px !important;
   font-weight: 800 !important;
   letter-spacing: -4px !important;
