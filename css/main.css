@@ -1551,10 +1551,34 @@ a.btn-nav .btn {
 }
 
 .intro h1 {
-  font-size: 70px;
+  font-size: 100px;
+  /* line-height: 80px; */
+  letter-spacing: 0;
+  font-weight: 900 !important;
+}
+
+.darker {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.25)) , url(../img/main/monicatello_2.png);
+}
+
+.intro h2 {
+  font-size: 50px;
   line-height: 80px;
   letter-spacing: 0;
 }
+
+.intro h3 {
+  font-size: 35px;
+  line-height: 80px;
+  letter-spacing: 0;
+}
+
+.intro p {
+  font-size: 25px;
+  line-height: 80px;
+  letter-spacing: 0;
+}
+
 .intro h1.intro-small {
   font-size: 65px;
   line-height: 65px;
